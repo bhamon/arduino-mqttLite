@@ -1,0 +1,14 @@
+{
+    "name":"MqttLite",
+    "keywords":"mqtt, iot",
+    "description":"A lightweight MQTT client.",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/bhamon/arduino-mqttLite.git"
+    },
+    "version":"1.0",
+    "frameworks":"arduino",
+    "platforms":[
+        "espressif"
+    ]
+}
