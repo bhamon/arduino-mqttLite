@@ -99,7 +99,7 @@ bool MqttLite::connect(
 	}
 
 	if(p_cleanSession) {
-		connectFlags |= 0b01;
+		connectFlags |= 0b01 << 1;
 	}
 
 	m_bufferData[length++] = connectFlags;
